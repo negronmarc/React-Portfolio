@@ -1,12 +1,13 @@
 import React from "react";
+import "../assets/scss/about.scss";
 import avatar from "../assets/images/avatar.png";
 
 export default function About() {
   return (
     <div>
-      <h1>About Me</h1>
       <img id="avatar" src={avatar} alt="Author's avatar" />
-      <p>
+      <h4 id="description">Description</h4>
+      <p id="desc-text">
         Hello! My name is Marc Negron and I am a Full Stack Developer that wants
         to create useful applications for users and tries to expand my knowledge
         of coding daily. I chose to be a Full Stack Developer since it gives me
