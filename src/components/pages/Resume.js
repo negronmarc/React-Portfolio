@@ -1,11 +1,12 @@
 import React from "react";
 import "../assets/scss/resume.scss";
+import resume from "../assets/pdf/resume.pdf";
 
 export default function Resume() {
   return (
     <div>
       <h4 class="resume-titles">Resume 2022</h4>
-      <a href="../assets/pdf/Resume.pdf" id="resume" download="newfilename">
+      <a href={resume} id="resume" download="Marc's Resume 2022">
         Download my resume
       </a>
       <h4 class="resume-titles">Front-end Proficiencies</h4>
