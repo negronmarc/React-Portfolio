@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import "./assets/scss/footer.scss";
+import "./assets/css/footer.css";
 import mailLogo from "./assets/images/mail.jpg";
 import octocat from "./assets/images/octocat.png";
 import linkedin from "./assets/images/linkedin.png";

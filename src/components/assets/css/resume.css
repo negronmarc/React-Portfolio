@@ -1,0 +1,20 @@
+#resume-container{
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+#resume {
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+  color: #CBF7ED;
+}
+
+.resume-titles {
+  padding: 10px;
+  color: #406E8E;
+}
+
+.list {
+  color: white;
+}
