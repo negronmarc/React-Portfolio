@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.7a7a84b0.css",
-    "main.js": "/React-Portfolio/static/js/main.87e39467.js",
+    "main.css": "/React-Portfolio/static/css/main.196b81a2.css",
+    "main.js": "/React-Portfolio/static/js/main.9d94a7cd.js",
     "static/media/octocat.png": "/React-Portfolio/static/media/octocat.363cb5edea582a89c41f.png",
     "static/media/homepage.png": "/React-Portfolio/static/media/homepage.e8127f059ed26d3b1d94.png",
     "static/media/pokebeats.png": "/React-Portfolio/static/media/pokebeats.af66c636dd1b325f899a.png",
@@ -9,17 +9,17 @@
     "static/media/bootstrap-icons.woff?": "/React-Portfolio/static/media/bootstrap-icons.4e80a14a205e5b6212ff.woff",
     "static/media/weather.png": "/React-Portfolio/static/media/weather.f5057fc3bed34475d0df.png",
     "static/media/bootstrap-icons.woff2?": "/React-Portfolio/static/media/bootstrap-icons.1f592ce3089115f4c842.woff2",
-    "static/media/resume.pdf": "/React-Portfolio/static/media/resume.aa215757ba95c870a029.pdf",
+    "static/media/resume-coding-2022.pdf": "/React-Portfolio/static/media/resume-coding-2022.bfb34c980bfcf3cbeafd.pdf",
     "static/media/avatar.png": "/React-Portfolio/static/media/avatar.830fc63e8e02e2ed6eb7.png",
     "static/media/mail.jpg": "/React-Portfolio/static/media/mail.2ae7d5ddee42241b5450.jpg",
     "static/media/password.png": "/React-Portfolio/static/media/password.236fd808703b10461d71.png",
     "static/media/notes.png": "/React-Portfolio/static/media/notes.6de96f1b227854b8effd.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.7a7a84b0.css.map": "/React-Portfolio/static/css/main.7a7a84b0.css.map",
-    "main.87e39467.js.map": "/React-Portfolio/static/js/main.87e39467.js.map"
+    "main.196b81a2.css.map": "/React-Portfolio/static/css/main.196b81a2.css.map",
+    "main.9d94a7cd.js.map": "/React-Portfolio/static/js/main.9d94a7cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a7a84b0.css",
-    "static/js/main.87e39467.js"
+    "static/css/main.196b81a2.css",
+    "static/js/main.9d94a7cd.js"
   ]
 }
