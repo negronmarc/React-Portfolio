@@ -6,7 +6,7 @@ export default function Resume() {
   return (
     <div id="resume-container">
       <h4 class="resume-titles">Resume 2022</h4>
-      <a href={resume} id="resume" download="Marc's Resume 2022">
+      <a href={resume} id="download" download="Marc's Resume 2022">
         Download my resume
       </a>
       <h4 class="resume-titles">Front-end Proficiencies</h4>

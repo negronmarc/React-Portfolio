@@ -1,24 +1,31 @@
 import React from "react";
-import pokebeats from "../assets/images/pokebeats.png";
-import hypochondriacs from "../assets/images/hypo-single.png";
-import animal from "../assets/images/homepage.png";
-import weather from "../assets/images/weather.png";
-import notes from "../assets/images/notes.png";
-import password from "../assets/images/password.png";
+import pokeBeats from "../assets/images/pokebeat.png";
+import hypochondriacs from "../assets/images/auction.png";
+import animal from "../assets/images/animalpalace.png";
+import weather from "../assets/images/weatherdash.png";
+import notes from "../assets/images/notetaker.png";
+import password from "../assets/images/passwordgen.png";
+import techBlog from "../assets/images/thetechblog.png";
+import scheduler from "../assets/images/workdayschedule.png";
+import movieQuiz from "../assets/images/moviequiz.png";
+import teamProfileGen from "../assets/images/teamprofilegen.png";
+import readMeGen from "../assets/images/readmegen.png";
+import employeeTracker from "../assets/images/employeetracker.png";
 import "../assets/css/portfolio.css";
 
 export default function Portfolio() {
   return (
     <div id="portfolio-container">
+      <h2 class="page-title">Portfolio</h2>
       <div class="container">
         <div class="row justify-content-evenly">
           <div class="col-auto card">
             <div class="imgContainer">
               {" "}
-              <img src={pokebeats} class="preview-image" />{" "}
+              <img src={pokeBeats} class="preview-image" />{" "}
             </div>
             <div class="content">
-              <h2>PokeBeats</h2>
+              <h3>PokeBeats</h3>
               <p>
                 PokeBeats uses the PokeAPI and YoutubeAPI in tandem so users can
                 read facts about a legendary Pokémon and listen to their
@@ -46,10 +53,11 @@ export default function Portfolio() {
               <img src={hypochondriacs} class="preview-image" />{" "}
             </div>
             <div class="content">
-              <h2>Hypochondriacs</h2>
+              <h3>Hypochondriacs</h3>
               <p>
                 Auction application that allows users to place bids on popular
-                pandemic products.
+                pandemic products. Users will have to sign in if they want to
+                see the products available.
                 <br />
                 <a
                   href="https://auction-pandemic-essentials.herokuapp.com/login"
@@ -73,7 +81,7 @@ export default function Portfolio() {
               <img src={animal} class="preview-image" />{" "}
             </div>
             <div class="content">
-              <h2>Animal Palace</h2>
+              <h3>Animal Palace</h3>
               <p>
                 Application was created to encourage people to donate money to
                 help animals in need. Users are able to sign up, donate and
@@ -103,7 +111,7 @@ export default function Portfolio() {
               <img src={weather} class="preview-image" />{" "}
             </div>
             <div class="content">
-              <h2>Weather Dashboard</h2>
+              <h3>Weather Dashboard</h3>
               <p>
                 Weather dashboard that runs in the browser and was created using
                 the OpenWeather API to retrieve data for the cities searched.
@@ -130,7 +138,7 @@ export default function Portfolio() {
               <img src={notes} class="preview-image" />{" "}
             </div>
             <div class="content">
-              <h2>Note Taker</h2>
+              <h3>Note Taker</h3>
               <p>
                 Application that allows users to write and save notes. Great for
                 those who want to be able to write notes so that they can
@@ -159,7 +167,7 @@ export default function Portfolio() {
               <img src={password} class="preview-image" />{" "}
             </div>
             <div class="content">
-              <h2>Password Generator</h2>
+              <h3>Password Generator</h3>
               <p>
                 Enables users to generate random passwords based on the criteria
                 that they have selected and has a responsive user interface.
@@ -178,6 +186,156 @@ export default function Portfolio() {
                   Github
                 </a>
               </p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-auto card">
+              <div class="imgContainer">
+                {" "}
+                <img src={techBlog} class="preview-image" />{" "}
+              </div>
+              <div class="content">
+                <h3>Tech Blog</h3>
+                <p>
+                  CMS-style blog site similar to a Wordpress site, where
+                  developers can publish their blog posts and comment on other
+                  developers' post as well.
+                  <br />
+                  <a
+                    href="https://tech-blog-mvc-app.herokuapp.com/"
+                    class="launch-link"
+                  >
+                    Launch
+                  </a>
+                  <br />
+                  <a
+                    href="https://github.com/negronmarc/Tech-Blog"
+                    class="github-link"
+                  >
+                    Github
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="col-auto card">
+              <div class="imgContainer">
+                {" "}
+                <img src={scheduler} class="preview-image" />{" "}
+              </div>
+              <div class="content">
+                <h3>Work Day Scheduler</h3>
+                <p>
+                  Using the Moment library to make a site that allows users to
+                  save events for each hour of a normal work day and accurately
+                  reflect how many how hours are left in their day.
+                  <br />
+                  <a
+                    href="https://negronmarc.github.io/Work-Day-Scheduler/"
+                    class="launch-link"
+                  >
+                    Launch
+                  </a>
+                  <br />
+                  <a
+                    href="https://github.com/negronmarc/Work-Day-Scheduler"
+                    class="github-link"
+                  >
+                    Github
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="col-auto card">
+              <div class="imgContainer">
+                {" "}
+                <img src={movieQuiz} class="preview-image" />{" "}
+              </div>
+              <div class="content">
+                <h3>Movie Quiz</h3>
+                <p>
+                  Timed coding quiz with multiple-choice questions. It runs in
+                  the browser and features dynamically updated HTML and CSS
+                  powered by JavaScript.
+                  <br />
+                  <a
+                    href="https://negronmarc.github.io/Movie-Quiz/"
+                    class="launch-link"
+                  >
+                    Launch
+                  </a>
+                  <br />
+                  <a
+                    href="https://github.com/negronmarc/Movie-Quiz"
+                    class="github-link"
+                  >
+                    Github
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-auto card">
+              <div class="imgContainer">
+                {" "}
+                <img src={teamProfileGen} class="preview-image" />{" "}
+              </div>
+              <div class="content">
+                <h3>Team Profile Generator</h3>
+                <p>
+                  Command-line application that takes in information about
+                  employees on a software engineering team, then generates an
+                  HTML webpage that displays summaries for each person.
+                  <br />
+                  <a
+                    href="https://github.com/negronmarc/Team-Profile-Generator"
+                    class="github-link"
+                  >
+                    Github
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="col-auto card">
+              <div class="imgContainer">
+                {" "}
+                <img src={readMeGen} class="preview-image" />{" "}
+              </div>
+              <div class="content">
+                <h3>README Generator</h3>
+                <p>
+                  Command-line application that generates a README file after a
+                  user answers a series of questions.
+                  <br />
+                  <a
+                    href="https://github.com/negronmarc/README-Generator"
+                    class="github-link"
+                  >
+                    Github
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="col-auto card">
+              <div class="imgContainer">
+                {" "}
+                <img src={employeeTracker} class="preview-image" />{" "}
+              </div>
+              <div class="content">
+                <h3>Employee Tracker</h3>
+                <p>
+                  CMS (content management system) that allows for the management
+                  of a company's employee database. Command-line application
+                  that uses MySQL to store and adjust the provided data.
+                  <br />
+                  <a
+                    href="https://github.com/negronmarc/Employee-Tracker"
+                    class="github-link"
+                  >
+                    Github
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>

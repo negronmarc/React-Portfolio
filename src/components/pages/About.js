@@ -5,6 +5,7 @@ import avatar from "../assets/images/avatar.png";
 export default function About() {
   return (
     <div id="about-container">
+      <h2 class="page-title">About Me</h2>
       <img id="avatar" src={avatar} alt="Author's avatar" />
       <h4 id="description">Description</h4>
       <p id="desc-text">
