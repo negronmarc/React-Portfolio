@@ -9,7 +9,14 @@
 }
 
 .icons {
-  font-size: 50px;
+  font-size: 40px;
   padding: 15px;
   color: #406e8e;
+}
+
+@media only screen and (max-width: 720px) {
+  .icons {
+    font-size: 30px;
+    padding: 10px;
+  }
 }
