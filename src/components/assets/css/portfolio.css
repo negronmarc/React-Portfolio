@@ -3,6 +3,11 @@
   margin-bottom: 200px;
 }
 
+.page-title {
+  text-align: center;
+  color: #406E8E;
+}
+
 .container .card {
   max-width: 300px;
   height: 215px;
@@ -18,17 +23,18 @@
 }
 
 .container .card:hover {
-  height: 450px;
+  height: 500px;
 }
 
 .container .card .imgContainer {
   position: relative;
   width: 250px;
-  height: 250px;
+  height: 200px;
   top: -50px;
   left: 10px;
   z-index: 1;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
 }
 
 .preview-image {

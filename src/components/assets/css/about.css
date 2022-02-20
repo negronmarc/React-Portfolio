@@ -3,6 +3,11 @@
   margin-bottom: 200px;
 }
 
+.page-title {
+  text-align: center;
+  color: #406E8E;
+}
+
 #avatar {
   padding: 20px;
   display: block;
