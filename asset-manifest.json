@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.3b39d9ec.css",
-    "main.js": "/React-Portfolio/static/js/main.a0855282.js",
+    "main.css": "/React-Portfolio/static/css/main.4a33f9a4.css",
+    "main.js": "/React-Portfolio/static/js/main.da0da3bb.js",
     "static/media/animalpalace.png": "/React-Portfolio/static/media/animalpalace.0cf9a2bc9462b97e6f35.png",
     "static/media/pokebeat.png": "/React-Portfolio/static/media/pokebeat.735c6ff43922a747a758.png",
     "static/media/auction.png": "/React-Portfolio/static/media/auction.38e822be5e1022f7069d.png",
@@ -19,11 +19,11 @@
     "static/media/moviequiz.png": "/React-Portfolio/static/media/moviequiz.3edb9f3adee068b1612a.png",
     "static/media/notetaker.png": "/React-Portfolio/static/media/notetaker.da91e85465b1dd791120.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.3b39d9ec.css.map": "/React-Portfolio/static/css/main.3b39d9ec.css.map",
-    "main.a0855282.js.map": "/React-Portfolio/static/js/main.a0855282.js.map"
+    "main.4a33f9a4.css.map": "/React-Portfolio/static/css/main.4a33f9a4.css.map",
+    "main.da0da3bb.js.map": "/React-Portfolio/static/js/main.da0da3bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b39d9ec.css",
-    "static/js/main.a0855282.js"
+    "static/css/main.4a33f9a4.css",
+    "static/js/main.da0da3bb.js"
   ]
 }
