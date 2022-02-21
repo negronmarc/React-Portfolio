@@ -37,7 +37,7 @@ export default function PortfolioContainer() {
     >
       {/* We are passing the currentPage from state and the function to update it */}
       <div id="header">
-        <h1>Marc Negron</h1>
+        <h1 id="my-name">Marc Negron</h1>
         <div id="nav">
           <NavTabs
             currentPage={currentPage}
