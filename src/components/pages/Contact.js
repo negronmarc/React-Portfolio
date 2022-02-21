@@ -50,7 +50,7 @@ export default function Contact() {
         <button
           type="submit"
           value="send"
-          class="btn col-lg-6 col-sm-10 bg-dark text-white center-block"
+          class="btn bg-dark text-white center-block"
           id="button"
         >
           Submit

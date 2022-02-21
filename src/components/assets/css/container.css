@@ -5,6 +5,10 @@
   display: flex;
 }
 
+#my-name{
+  z-index: +3;
+}
+
 #nav {
   position: absolute;
   right: -1px;
@@ -12,10 +16,13 @@
 }
 
 #hamburger {
+  text-align: center;
+  z-index: +2;
+  width: 140px;
+  background-color: #161925;
   position: absolute;
   right: -1px;
   margin-top: -5px;
-
   visibility: hidden;
 }
 
