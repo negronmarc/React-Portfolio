@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.4a33f9a4.css",
-    "main.js": "/React-Portfolio/static/js/main.da0da3bb.js",
-    "static/media/animalpalace.png": "/React-Portfolio/static/media/animalpalace.0cf9a2bc9462b97e6f35.png",
-    "static/media/pokebeat.png": "/React-Portfolio/static/media/pokebeat.735c6ff43922a747a758.png",
-    "static/media/auction.png": "/React-Portfolio/static/media/auction.38e822be5e1022f7069d.png",
-    "static/media/readmegen.png": "/React-Portfolio/static/media/readmegen.3dda0fc1fd597a9e8b83.png",
-    "static/media/bootstrap-icons.woff?": "/React-Portfolio/static/media/bootstrap-icons.4e80a14a205e5b6212ff.woff",
-    "static/media/weatherdash.png": "/React-Portfolio/static/media/weatherdash.5047186c9e15472223ba.png",
-    "static/media/bootstrap-icons.woff2?": "/React-Portfolio/static/media/bootstrap-icons.1f592ce3089115f4c842.woff2",
-    "static/media/employeetracker.png": "/React-Portfolio/static/media/employeetracker.33b1f974fd6e7c60e512.png",
-    "static/media/resume-coding-2022.pdf": "/React-Portfolio/static/media/resume-coding-2022.bfb34c980bfcf3cbeafd.pdf",
-    "static/media/workdayschedule.png": "/React-Portfolio/static/media/workdayschedule.a20d48ab5113283b3be8.png",
-    "static/media/teamprofilegen.png": "/React-Portfolio/static/media/teamprofilegen.aa47cd4279e4fa10e7de.png",
-    "static/media/avatar.png": "/React-Portfolio/static/media/avatar.830fc63e8e02e2ed6eb7.png",
-    "static/media/thetechblog.png": "/React-Portfolio/static/media/thetechblog.7667ba7a05efc9eec860.png",
-    "static/media/passwordgen.png": "/React-Portfolio/static/media/passwordgen.c0e4f27be6c1e3e55b03.png",
-    "static/media/moviequiz.png": "/React-Portfolio/static/media/moviequiz.3edb9f3adee068b1612a.png",
-    "static/media/notetaker.png": "/React-Portfolio/static/media/notetaker.da91e85465b1dd791120.png",
-    "index.html": "/React-Portfolio/index.html",
-    "main.4a33f9a4.css.map": "/React-Portfolio/static/css/main.4a33f9a4.css.map",
-    "main.da0da3bb.js.map": "/React-Portfolio/static/js/main.da0da3bb.js.map"
+    "main.css": "/static/css/main.f7bb3071.css",
+    "main.js": "/static/js/main.25b140f2.js",
+    "static/media/animalpalace.png": "/static/media/animalpalace.0cf9a2bc9462b97e6f35.png",
+    "static/media/pokebeat.png": "/static/media/pokebeat.735c6ff43922a747a758.png",
+    "static/media/auction.png": "/static/media/auction.38e822be5e1022f7069d.png",
+    "static/media/readmegen.png": "/static/media/readmegen.3dda0fc1fd597a9e8b83.png",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.4e80a14a205e5b6212ff.woff",
+    "static/media/weatherdash.png": "/static/media/weatherdash.5047186c9e15472223ba.png",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.1f592ce3089115f4c842.woff2",
+    "static/media/employeetracker.png": "/static/media/employeetracker.33b1f974fd6e7c60e512.png",
+    "static/media/resume-coding-2022.pdf": "/static/media/resume-coding-2022.bfb34c980bfcf3cbeafd.pdf",
+    "static/media/workdayschedule.png": "/static/media/workdayschedule.a20d48ab5113283b3be8.png",
+    "static/media/teamprofilegen.png": "/static/media/teamprofilegen.aa47cd4279e4fa10e7de.png",
+    "static/media/avatar.png": "/static/media/avatar.830fc63e8e02e2ed6eb7.png",
+    "static/media/thetechblog.png": "/static/media/thetechblog.7667ba7a05efc9eec860.png",
+    "static/media/passwordgen.png": "/static/media/passwordgen.c0e4f27be6c1e3e55b03.png",
+    "static/media/moviequiz.png": "/static/media/moviequiz.3edb9f3adee068b1612a.png",
+    "static/media/notetaker.png": "/static/media/notetaker.da91e85465b1dd791120.png",
+    "index.html": "/index.html",
+    "main.f7bb3071.css.map": "/static/css/main.f7bb3071.css.map",
+    "main.25b140f2.js.map": "/static/js/main.25b140f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a33f9a4.css",
-    "static/js/main.da0da3bb.js"
+    "static/css/main.f7bb3071.css",
+    "static/js/main.25b140f2.js"
   ]
 }
