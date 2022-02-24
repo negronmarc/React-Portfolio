@@ -5,26 +5,52 @@ import resume from "../assets/pdf/resume-2022.pdf";
 export default function Resume() {
   return (
     <div id="resume-container">
-      <h4 class="resume-titles">Resume 2022</h4>
-      <a href={resume} id="download" download="Marc's Resume 2022">
-        Download my resume
-      </a>
-      <h4 class="resume-titles">Front-end Proficiencies</h4>
-        <ul class="list">HTML</ul>
-        <ul class="list">CSS</ul>
-        <ul class="list">JavaScript</ul>
-        <ul class="list">jQuery</ul>
-        <ul class="list">React</ul>
-        <ul class="list">Bulma</ul>
-        <ul class="list">Bootstrap</ul>
-        <ul class="list">Responsive Design</ul>
-      <h4 class="resume-titles">Back-end Proficiencies</h4>
-        <ul class="list">APIs</ul>
-        <ul class="list">Node</ul>
-        <ul class="list">Express</ul>
-        <ul class="list">MySQL, Sequelize</ul>
-        <ul class="list">MongoDB</ul>
-        <ul class="list">GraphQL</ul>
+      <h2 id="title">Resume 2022</h2>
+      <div class="row justify-content-evenly">
+        <div class="col-lg-3 col-md-6 col-sm-8 skills">
+          <h4 class="resume-titles">Front-end Proficiencies</h4>
+          <p class="list">HTML</p>
+          <p class="list">CSS</p>
+          <p class="list">JavaScript</p>
+          <p class="list">jQuery</p>
+          <p class="list">Handlebars</p>
+          <p class="list">React</p>
+          <p class="list">Bulma</p>
+          <p class="list">Bootstrap</p>
+          <p class="list">Responsive Design</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-8 skills">
+          <h4 class="resume-titles">Technologies</h4>
+          <p class="list">Visual Studio Code</p>
+          <p class="list">MongoDB Atlas</p>
+          <p class="list">MongoDB Compass</p>
+          <p class="list">MySQL Workbench</p>
+          <p class="list">Insomnia</p>
+          <p class="list">Heroku</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-8 skills">
+          <h4 class="resume-titles">Back-end Proficiencies</h4>
+          <p class="list">REST API</p>
+          <p class="list">Node</p>
+          <p class="list">Express</p>
+          <p class="list">MySQL</p>
+          <p class="list">Sequelize</p>
+          <p class="list">MongoDB</p>
+          <p class="list">Mongoose</p>
+          <p class="list">GraphQL</p>
+          <p class="list">JSON Web Tokens</p>
+          <p class="list">Regex</p>
+        </div>
+      </div>
+      <div id="cv-download">
+        <a
+          href={resume}
+          id="download"
+          download="Marc's Resume 2022"
+        >
+          Download my resume
+        </a>
+      </div>
     </div>
   );
 }
