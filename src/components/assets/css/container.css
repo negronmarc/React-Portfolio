@@ -11,8 +11,8 @@
 
 #nav {
   position: absolute;
-  right: -1px;
-  margin-top: 2px;
+  right: 6px;
+  margin-top: 8px;
 }
 
 #hamburger {
@@ -21,7 +21,7 @@
   width: 140px;
   background-color: #161925;
   position: absolute;
-  right: -1px;
+  right: 6px;
   margin-top: -5px;
   visibility: hidden;
 }
