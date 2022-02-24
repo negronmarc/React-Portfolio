@@ -1,20 +1,49 @@
-#resume-container{
-  margin-top: 20px;
-  margin-bottom: 200px;
+#resume-container {
+  padding: 15px;
+}
+
+#title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #406E8E;
+}
+
+.skills {
+  border-style: ridge;
+  border-radius: 40px;
+  border-color: #23395B;
+  border-width: 8px;
+  background-color: #161925;
+  color: white;
+  height: 485px;
+  text-align: center;
+  margin: 25px;
+}
+
+.resume-titles {
+  color: #406E8E;
+  margin-top: 5px;
+  margin-bottom: 12px; 
+}
+
+#cv-download {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 90px;
 }
 
 #download {
   text-decoration: none;
   color: white;
-  margin-left: 30px;
-  color: #CBF7ED;
+  border-width: 5px;
+  border-color: #23395B;
+  border-style: inset;
+  background-color: #161925;
+  padding: 15px;
 }
 
-.resume-titles {
-  padding: 10px;
-  color: #406E8E;
-}
-
-.list {
-  color: white;
+#download:hover {
+  background-color: #406E8E;
+  font-size: 20px;
+  color: #161925;
 }
