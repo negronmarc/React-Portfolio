@@ -16,7 +16,17 @@
 
 #button {
   margin-top: 15px;
-  margin-left: 10px;
+  color: #CBF7ED;
+  background-color: #23395B;
+}
+
+#button:hover {
+  color:#23395B;
+  background-color: #CBF7ED;
+}
+
+.titles {
+  color: #CBF7ED;
 }
 
 @media only screen and (max-width: 575px) {

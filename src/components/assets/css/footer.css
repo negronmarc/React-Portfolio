@@ -14,6 +14,10 @@
   color: #406e8e;
 }
 
+.icons:hover {
+  color: #CBF7ED;
+}
+
 @media only screen and (max-width: 720px) {
   .icons {
     font-size: 30px;

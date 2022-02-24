@@ -18,6 +18,8 @@
   height: 485px;
   text-align: center;
   margin: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .resume-titles {
@@ -43,7 +45,7 @@
 }
 
 #download:hover {
-  background-color: #406E8E;
-  font-size: 20px;
-  color: #161925;
+  background-color: #CBF7ED;
+  font-size: 18px;
+  color: #23395B;
 }

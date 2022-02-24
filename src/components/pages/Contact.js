@@ -30,27 +30,27 @@ export default function Contact() {
     <div id="contact-container">
       <h2 class="page-title">Contact Me</h2>
       <form ref={form} onSubmit={contactInfo}>
-        <div class="text-box col-lg-6 col-sm-10 text-white mx-auto">
-          <label htmlFor="subject">Subject</label>
+        <div class="text-box col-lg-6 col-sm-10 mx-auto">
+          <label htmlFor="subject" class="titles">Subject</label>
           <input type="text" class="form-control" name="subject" />
         </div>
-        <div class="text-box col-lg-6 col-sm-10 text-white mx-auto">
-          <label htmlFor="name">Name</label>
+        <div class="text-box col-lg-6 col-sm-10 mx-auto">
+          <label htmlFor="name" class="titles">Name</label>
           <input type="text" class="form-control" name="name" />
         </div>
-        <div class="text-box col-lg-6 col-sm-10 text-white mx-auto">
-          <label htmlFor="email">Email address</label>
+        <div class="text-box col-lg-6 col-sm-10 mx-auto">
+          <label htmlFor="email" class="titles">Email address</label>
           <input type="email" class="form-control" name="email" />
         </div>
-        <div class="text-box col-lg-6 col-sm-10 text-white mx-auto">
-          <label htmlFor="message">Message</label>
+        <div class="text-box col-lg-6 col-sm-10 mx-auto">
+          <label htmlFor="message" class="titles">Message</label>
           <textarea class="form-control" rows="10" name="message"></textarea>
         </div>
         <div class="text-center">
         <button
           type="submit"
           value="send"
-          class="btn bg-dark text-white center-block"
+          class="btn center-block"
           id="button"
         >
           Submit
