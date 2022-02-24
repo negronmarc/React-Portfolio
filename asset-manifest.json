@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0d0db1b.css",
-    "main.js": "/static/js/main.41968e70.js",
+    "main.css": "/static/css/main.61bcf1b9.css",
+    "main.js": "/static/js/main.512303ce.js",
     "static/media/animalpalace.png": "/static/media/animalpalace.0cf9a2bc9462b97e6f35.png",
     "static/media/pokebeat.png": "/static/media/pokebeat.735c6ff43922a747a758.png",
     "static/media/auction.png": "/static/media/auction.38e822be5e1022f7069d.png",
@@ -19,11 +19,11 @@
     "static/media/moviequiz.png": "/static/media/moviequiz.3edb9f3adee068b1612a.png",
     "static/media/notetaker.png": "/static/media/notetaker.da91e85465b1dd791120.png",
     "index.html": "/index.html",
-    "main.e0d0db1b.css.map": "/static/css/main.e0d0db1b.css.map",
-    "main.41968e70.js.map": "/static/js/main.41968e70.js.map"
+    "main.61bcf1b9.css.map": "/static/css/main.61bcf1b9.css.map",
+    "main.512303ce.js.map": "/static/js/main.512303ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0d0db1b.css",
-    "static/js/main.41968e70.js"
+    "static/css/main.61bcf1b9.css",
+    "static/js/main.512303ce.js"
   ]
 }
