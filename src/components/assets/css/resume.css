@@ -4,26 +4,26 @@
 
 #title {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: #406E8E;
 }
 
 .skills {
   border-style: ridge;
   border-radius: 40px;
-  border-color: #23395B;
+  border-color: #161925;
   border-width: 8px;
-  background-color: #161925;
-  color: white;
+  background-color: #23395B;
+  color: #CBF7ED;
   height: 485px;
   text-align: center;
   margin: 25px;
 }
 
 .resume-titles {
-  color: #406E8E;
   margin-top: 5px;
-  margin-bottom: 12px; 
+  margin-bottom: 20px; 
+  color: #406E8E;
 }
 
 #cv-download {
@@ -34,11 +34,11 @@
 
 #download {
   text-decoration: none;
-  color: white;
+  color: #CBF7ED;
   border-width: 5px;
-  border-color: #23395B;
+  border-color: #161925;
   border-style: inset;
-  background-color: #161925;
+  background-color: #23395B;
   padding: 15px;
 }
 

@@ -48,7 +48,7 @@ export default function Resume() {
           id="download"
           download="Marc's Resume 2022"
         >
-          Download my resume
+          Download CV <i class="bi bi-file-earmark-person-fill"></i>
         </a>
       </div>
     </div>
