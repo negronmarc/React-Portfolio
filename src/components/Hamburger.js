@@ -1,5 +1,6 @@
 import React from "react";
 import Bootstrap from "bootstrap";
+import "./assets/css/hamburger.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 function Hamburger({ currentPage, handlePageChange }) {
@@ -13,7 +14,7 @@ function Hamburger({ currentPage, handlePageChange }) {
             data-bs-toggle="collapse"
             data-bs-target="#navbarToggleExternalContent"
           >
-            <i class="bi bi-list"></i>
+            <i class="bi bi-list" id="lines"></i>
           </button>
         </div>
       </nav>
@@ -22,11 +23,12 @@ function Hamburger({ currentPage, handlePageChange }) {
           <button class="btn btn-link m-0 text-decoration-none">
             <a
               href="#about"
+              id="navigation-burger"
               onClick={() => handlePageChange("About")}
               className={
                 currentPage === "About"
-                  ? "nav-link active bg-dark text-white"
-                  : "nav-link text-white"
+                  ? "nav-link active bg-dark"
+                  : "nav-link"
               }
             >
               About Me
@@ -35,11 +37,12 @@ function Hamburger({ currentPage, handlePageChange }) {
           <button class="btn btn-link m-0 text-decoration-none">
             <a
               href="#portfolio"
+              id="navigation-burger"
               onClick={() => handlePageChange("Portfolio")}
               className={
                 currentPage === "Portfolio"
-                  ? "nav-link active bg-dark text-white"
-                  : "nav-link text-white"
+                  ? "nav-link active bg-dark"
+                  : "nav-link"
               }
             >
               Portfolio
@@ -48,11 +51,12 @@ function Hamburger({ currentPage, handlePageChange }) {
           <button class="btn btn-link m-0 text-decoration-none">
             <a
               href="#resume"
+              id="navigation-burger"
               onClick={() => handlePageChange("Resume")}
               className={
                 currentPage === "Resume"
-                  ? "nav-link active bg-dark text-white"
-                  : "nav-link text-white"
+                  ? "nav-link active bg-dark"
+                  : "nav-link"
               }
             >
               Resume
@@ -62,11 +66,12 @@ function Hamburger({ currentPage, handlePageChange }) {
             {" "}
             <a
               href="#contact"
+              id="navigation-burger"
               onClick={() => handlePageChange("Contact")}
               className={
                 currentPage === "Contact"
-                  ? "nav-link active bg-dark text-white"
-                  : "nav-link text-white"
+                  ? "nav-link active bg-dark"
+                  : "nav-link"
               }
             >
               Contact
