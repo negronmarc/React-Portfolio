@@ -17,7 +17,7 @@ export default function Portfolio() {
   return (
     <div id="portfolio-container">
       <h2 class="page-title">Portfolio</h2>
-      <div class="container">
+      <div class="container-cards">
         <div class="row justify-content-evenly">
           <div class="col-auto card">
             <div class="imgContainer">
@@ -42,7 +42,7 @@ export default function Portfolio() {
                   href="https://github.com/negronmarc/PokeBeats"
                   class="github-link"
                 >
-                  Github <i class="bi bi-github"></i> 
+                  Github <i class="bi bi-github"></i>
                 </a>
               </p>
             </div>
@@ -88,7 +88,7 @@ export default function Portfolio() {
                 symbolically adopt animals.
                 <br />
                 <a
-                  href="https://github.com/bjtsmith23/Animal-Palace/deployments/activity_log?environment=animal-palace"
+                  href="https://animal-palace.herokuapp.com/"
                   class="launch-link"
                 >
                   Launch <i class="bi bi-link-45deg"></i>
@@ -103,8 +103,6 @@ export default function Portfolio() {
               </p>
             </div>
           </div>
-        </div>
-        <div class="row justify-content-evenly">
           <div class="col-auto card">
             <div class="imgContainer">
               {" "}
@@ -188,154 +186,150 @@ export default function Portfolio() {
               </p>
             </div>
           </div>
-          <div class="row justify-content-evenly">
-            <div class="col-auto card">
-              <div class="imgContainer">
-                {" "}
-                <img src={techBlog} class="preview-image" />{" "}
-              </div>
-              <div class="content">
-                <h3>Tech Blog</h3>
-                <p class="description">
-                  CMS-style blog site similar to a Wordpress site, where
-                  developers can publish their blog posts and comment on other
-                  developers' post as well.
-                  <br />
-                  <a
-                    href="https://tech-blog-mvc-app.herokuapp.com/"
-                    class="launch-link"
-                  >
-                    Launch <i class="bi bi-link-45deg"></i>
-                  </a>
-                  <br />
-                  <a
-                    href="https://github.com/negronmarc/Tech-Blog"
-                    class="github-link"
-                  >
-                    Github <i class="bi bi-github"></i>
-                  </a>
-                </p>
-              </div>
+          <div class="col-auto card">
+            <div class="imgContainer">
+              {" "}
+              <img src={techBlog} class="preview-image" />{" "}
             </div>
-            <div class="col-auto card">
-              <div class="imgContainer">
-                {" "}
-                <img src={scheduler} class="preview-image" />{" "}
-              </div>
-              <div class="content">
-                <h3>Work Day Scheduler</h3>
-                <p class="description">
-                  Using the Moment library to make a site that allows users to
-                  save events for each hour of a normal work day and accurately
-                  reflect how many how hours are left in their day.
-                  <br />
-                  <a
-                    href="https://negronmarc.github.io/Work-Day-Scheduler/"
-                    class="launch-link"
-                  >
-                    Launch <i class="bi bi-link-45deg"></i>
-                  </a>
-                  <br />
-                  <a
-                    href="https://github.com/negronmarc/Work-Day-Scheduler"
-                    class="github-link"
-                  >
-                    Github <i class="bi bi-github"></i>
-                  </a>
-                </p>
-              </div>
-            </div>
-            <div class="col-auto card">
-              <div class="imgContainer">
-                {" "}
-                <img src={movieQuiz} class="preview-image" />{" "}
-              </div>
-              <div class="content">
-                <h3>Movie Quiz</h3>
-                <p class="description">
-                  Timed coding quiz with multiple-choice questions. It runs in
-                  the browser and features dynamically updated HTML and CSS
-                  powered by JavaScript.
-                  <br />
-                  <a
-                    href="https://negronmarc.github.io/Movie-Quiz/"
-                    class="launch-link"
-                  >
-                    Launch <i class="bi bi-link-45deg"></i>
-                  </a>
-                  <br />
-                  <a
-                    href="https://github.com/negronmarc/Movie-Quiz"
-                    class="github-link"
-                  >
-                    Github <i class="bi bi-github"></i>
-                  </a>
-                </p>
-              </div>
+            <div class="content">
+              <h3>Tech Blog</h3>
+              <p class="description">
+                CMS-style blog site similar to a Wordpress site, where
+                developers can publish their blog posts and comment on other
+                developers' post as well.
+                <br />
+                <a
+                  href="https://tech-blog-mvc-app.herokuapp.com/"
+                  class="launch-link"
+                >
+                  Launch <i class="bi bi-link-45deg"></i>
+                </a>
+                <br />
+                <a
+                  href="https://github.com/negronmarc/Tech-Blog"
+                  class="github-link"
+                >
+                  Github <i class="bi bi-github"></i>
+                </a>
+              </p>
             </div>
           </div>
-          <div class="row justify-content-evenly">
-            <div class="col-auto card">
-              <div class="imgContainer">
-                {" "}
-                <img src={teamProfileGen} class="preview-image" />{" "}
-              </div>
-              <div class="content">
-                <h3>Team Profile Generator</h3>
-                <p class="description">
-                  Command-line application that takes in information about
-                  employees on a software engineering team, then generates an
-                  HTML webpage that displays summaries for each person.
-                  <br />
-                  <a
-                    href="https://github.com/negronmarc/Team-Profile-Generator"
-                    class="github-link"
-                  >
-                    Github <i class="bi bi-github"></i>
-                  </a>
-                </p>
-              </div>
+          <div class="col-auto card">
+            <div class="imgContainer">
+              {" "}
+              <img src={scheduler} class="preview-image" />{" "}
             </div>
-            <div class="col-auto card">
-              <div class="imgContainer">
-                {" "}
-                <img src={readMeGen} class="preview-image" />{" "}
-              </div>
-              <div class="content">
-                <h3>README Generator</h3>
-                <p class="description">
-                  Command-line application that generates a README file after a
-                  user answers a series of questions.
-                  <br />
-                  <a
-                    href="https://github.com/negronmarc/README-Generator"
-                    class="github-link"
-                  >
-                    Github <i class="bi bi-github"></i>
-                  </a>
-                </p>
-              </div>
+            <div class="content">
+              <h3>Work Day Scheduler</h3>
+              <p class="description">
+                Using the Moment library to make a site that allows users to
+                save events for each hour of a normal work day and accurately
+                reflect how many how hours are left in their day.
+                <br />
+                <a
+                  href="https://negronmarc.github.io/Work-Day-Scheduler/"
+                  class="launch-link"
+                >
+                  Launch <i class="bi bi-link-45deg"></i>
+                </a>
+                <br />
+                <a
+                  href="https://github.com/negronmarc/Work-Day-Scheduler"
+                  class="github-link"
+                >
+                  Github <i class="bi bi-github"></i>
+                </a>
+              </p>
             </div>
-            <div class="col-auto card">
-              <div class="imgContainer">
-                {" "}
-                <img src={employeeTracker} class="preview-image" />{" "}
-              </div>
-              <div class="content">
-                <h3>Employee Tracker</h3>
-                <p class="description">
-                  CMS (content management system) that allows for the management
-                  of a company's employee database. Command-line application
-                  that uses MySQL to store and adjust the provided data.
-                  <br />
-                  <a
-                    href="https://github.com/negronmarc/Employee-Tracker"
-                    class="github-link"
-                  >
-                    Github <i class="bi bi-github"></i>
-                  </a>
-                </p>
-              </div>
+          </div>
+          <div class="col-auto card">
+            <div class="imgContainer">
+              {" "}
+              <img src={movieQuiz} class="preview-image" />{" "}
+            </div>
+            <div class="content">
+              <h3>Movie Quiz</h3>
+              <p class="description">
+                Timed coding quiz with multiple-choice questions. It runs in the
+                browser and features dynamically updated HTML and CSS powered by
+                JavaScript.
+                <br />
+                <a
+                  href="https://negronmarc.github.io/Movie-Quiz/"
+                  class="launch-link"
+                >
+                  Launch <i class="bi bi-link-45deg"></i>
+                </a>
+                <br />
+                <a
+                  href="https://github.com/negronmarc/Movie-Quiz"
+                  class="github-link"
+                >
+                  Github <i class="bi bi-github"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col-auto card">
+            <div class="imgContainer">
+              {" "}
+              <img src={teamProfileGen} class="preview-image" />{" "}
+            </div>
+            <div class="content">
+              <h3>Team Profile Generator</h3>
+              <p class="description">
+                Command-line application that takes in information about
+                employees on a software engineering team, then generates an HTML
+                webpage that displays summaries for each person.
+                <br />
+                <a
+                  href="https://github.com/negronmarc/Team-Profile-Generator"
+                  class="github-link"
+                >
+                  Github <i class="bi bi-github"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col-auto card">
+            <div class="imgContainer">
+              {" "}
+              <img src={readMeGen} class="preview-image" />{" "}
+            </div>
+            <div class="content">
+              <h3>README Generator</h3>
+              <p class="description">
+                Command-line application that generates a README file after a
+                user answers a series of questions.
+                <br />
+                <a
+                  href="https://github.com/negronmarc/README-Generator"
+                  class="github-link"
+                >
+                  Github <i class="bi bi-github"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col-auto card">
+            <div class="imgContainer">
+              {" "}
+              <img src={employeeTracker} class="preview-image" />{" "}
+            </div>
+            <div class="content">
+              <h3>Employee Tracker</h3>
+              <p class="description">
+                CMS (content management system) that allows for the management
+                of a company's employee database. Command-line application that
+                uses MySQL to store and adjust the provided data.
+                <br />
+                <a
+                  href="https://github.com/negronmarc/Employee-Tracker"
+                  class="github-link"
+                >
+                  Github <i class="bi bi-github"></i>
+                </a>
+              </p>
             </div>
           </div>
         </div>
