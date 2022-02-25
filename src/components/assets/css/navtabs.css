@@ -1,0 +1,12 @@
+#navigation {
+  color: #406e8e;
+  font-weight: bold;
+}
+
+#navigation:hover {
+  color: #CBF7ED;
+}
+
+#navigation:active {
+  background-color: white;
+}

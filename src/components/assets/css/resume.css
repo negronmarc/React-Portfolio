@@ -48,4 +48,5 @@
   background-color: #CBF7ED;
   font-size: 18px;
   color: #23395B;
+  transition: 0.3s ease-in-out;
 }

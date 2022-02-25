@@ -1,0 +1,12 @@
+#lines {
+  color: #406e8e;
+}
+
+#navigation-burger {
+  color: #406e8e;
+  font-weight: bold;
+}
+
+#navigation-burger:hover {
+  color: #cbf7ed;
+}
