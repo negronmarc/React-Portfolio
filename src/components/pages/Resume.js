@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/css/resume.css";
-import resume from "../assets/pdf/resume-2022.pdf";
+import resume from "../assets/pdf/resume-coding-2022.pdf";
 
 export default function Resume() {
   return (
