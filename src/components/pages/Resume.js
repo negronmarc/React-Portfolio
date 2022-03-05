@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/css/resume.css";
-import resume from "../assets/pdf/resume-coding-2022.pdf";
+import resume from "../assets/pdf/resume-2022.pdf";
 
 export default function Resume() {
   return (
@@ -48,7 +48,7 @@ export default function Resume() {
           id="download"
           download="Marc's Resume 2022"
         >
-          Download CV <i class="bi bi-file-earmark-person-fill"></i>
+          Download Resume <i class="bi bi-file-earmark-person-fill"></i>
         </a>
       </div>
     </div>
